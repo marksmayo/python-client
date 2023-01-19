@@ -58,7 +58,7 @@ VERSION_FORMAT = "version = '{}'\n"
 
 def update_version_file(version):
     new_version = VERSION_FORMAT.format(version)
-    with open(VERSION_FILE_PATH, "w", encoding="utf-8") as f:
+    with open(VERSION_FILE_PATH, "w", encoding='utf-8') as f:
         f.write(new_version)
 
 
